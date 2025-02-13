@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Modal from './Modal';
+
 import '../styles/ProjectForm.css';
 
 const ProjectForm = ({ closeForm, addProject }) => {
