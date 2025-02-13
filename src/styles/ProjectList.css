@@ -1,0 +1,33 @@
+.project-list-container {
+    overflow-x: auto;
+  }
+  
+  .project-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .project-table th, .project-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .project-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .project-table td span {
+    cursor: pointer;
+  }
+  
+  .no-projects {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .inline-error {
+    color: red;
+    font-size: 12px;
+  }
+  
